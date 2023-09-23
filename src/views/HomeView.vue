@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-[1200px] w-full mx-auto py-10">
-    <h1 class="text-4xl text-[#42B883] mb-10">Hello Abdurahim</h1>
+    <h1 class="text-4xl text-[#42B883] mb-10">Vue 3, Composition Api, Typescript</h1>
     <UsersList :users="users" />
   </div>
 </template>
