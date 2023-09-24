@@ -1,15 +1,15 @@
 <template>
   <tr
     @click="toUserDetails"
-    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl"
+    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl [&>*]:px-2 [&>*]:text-base [&>*]:text-[#36454F] [&>*]:font-medium"
   >
-    <td class="text-center text-[#36454F] text-base py-2 font-medium px-2">{{ user.id }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.name }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.email }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.phone }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.address.city }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.company.name }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ user.website }}</td>
+    <td class="text-center  py-2">{{ user.id }}</td>
+    <td>{{ user.name }}</td>
+    <td>{{ user.email }}</td>
+    <td>{{ user.phone }}</td>
+    <td>{{ user.address.city }}</td>
+    <td>{{ user.company.name }}</td>
+    <td>{{ user.website }}</td>
   </tr>
 </template>
 <script setup>
