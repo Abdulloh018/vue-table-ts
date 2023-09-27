@@ -2,12 +2,12 @@
   <div>
     <table class="w-full border border-[#B8B8B8]">
       <thead class="border-b border-[#B8B8B8]">
-        <tr class="bg-[#80ed99] text-[#262527]">
-          <th class="relative py-2 text-xl text-center font-semibold px-2">Post&nbsp;id</th>
-          <th class="relative text-xl font-semibold text-start px-2">Title</th>
-          <th class="relative text-xl font-semibold text-start px-2">Body</th>
-          <th class="px-4">Edit</th>
-          <th class="px-4">Delete</th>
+        <tr class="bg-[#80ed99] [&>*]:text-xl [&>*]:text-start [&>*]:font-semibold [&>*]:px-2">
+          <th class="py-2">Post&nbsp;id</th>
+          <th>Title</th>
+          <th>Body</th>
+          <th>Edit</th>
+          <th>Delete</th>
         </tr>
       </thead>
       <tbody>

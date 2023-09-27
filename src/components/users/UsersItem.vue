@@ -1,7 +1,7 @@
 <template>
   <tr
     @click="toUserDetails"
-    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl [&>*]:px-2 [&>*]:text-base [&>*]:text-[#36454F] [&>*]:font-medium"
+    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl [&>*]:px-2"
   >
     <td class="text-center  py-2">{{ user.id }}</td>
     <td>{{ user.name }}</td>

@@ -1,12 +1,12 @@
 <template>
   <tr
-    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl"
+    class="relative text-start border-b border-[#B8B8B8] cursor-pointer shadow-2xl [&>*]:font-medium [&>*]:px-2"
   >
-    <td class="text-[#36454F] text-center text-base py-2 font-medium px-2">{{ props.index }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ post.title }}</td>
-    <td class="text-[#36454F] text-base font-medium px-2">{{ post.body }}</td>
-    <td class="px-4"><button @click="editPost(post.id)" type="button" class="w-6 h-6"><EditSvg/></button></td>
-    <td class="px-4"><button @click="deletePost(post.id)" type="button" class="w-6 h-6"><DeleteSvg/></button></td>
+    <td class="py-2">{{ props.index }}</td>
+    <td>{{ post.title }}</td>
+    <td>{{ post.body }}</td>
+    <td><button @click="editPost(post.id)" type="button" class="w-6 h-6"><EditSvg/></button></td>
+    <td><button @click="deletePost(post.id)" type="button" class="w-6 h-6"><DeleteSvg/></button></td>
   </tr>
 </template>
 <script setup>
